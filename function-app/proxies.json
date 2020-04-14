@@ -1,0 +1,10 @@
+{
+  "proxies": {
+    "Files": {
+      "matchCondition": {
+        "route": "{*path}"
+      },
+      "backendUri": "http://localhost/api/index?__path__={path}"
+    }
+  }
+}
